@@ -24,7 +24,7 @@ git commit -m 'inflearn 1section completed
 > 
 > 이번 강의에서는 스프링 빈과 의존관계에 대해서 배웠으며 ~ (해당 강의 내용 요약)'
 ```
-2. PR은 1강이 끝날때마다 하기
+2. PR은 섹션 1개가 끝날때마다 하기
 3. 모르거나 헷갈리는 부분은 [Discussion](https://github.com/orgs/CBNU-Nnet/teams/spring-study/discussions)란에 질문
 
 + 참고자료 
