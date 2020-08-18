@@ -22,13 +22,13 @@
 
 실행 시 해당 모양이 뜨고 Spring Boot Version 이 뜨고
 
-![RunnigCheck](RunCheck.PNG.PNG)
+![RunnigCheck](img_md/RunCheck.PNG.PNG)
 
 웹브라우저에서 해당 링크로 접속하여
 
     http://localhost:8080
 
-![ErrorCheck](WebError.PNG.PNG)
+![ErrorCheck](img_md/WebError.PNG.PNG)
 
 이러한 에러페이지가 뜨면 성공!!
 
@@ -130,7 +130,7 @@ public class HelloController {
 
 ### 동작환경
 
-![ControllerRunning](ControllerRun.PNG)
+![ControllerRunning](img_md/ControllerRun.PNG)
 
 - 컨트롤러에서 리턴 값으로 문자를 반환하면 뷰 리졸버(```viewResolver```)가 화면을 찾아서 처리한다.
   - 스프링 부트 템플릿엔진 기본 viewName 매핑
@@ -141,14 +141,14 @@ public class HelloController {
 ### 콘솔로 빌드, 실행
 
 1. <pre><code>gradlew build</code></pre>
-![gradlewBuild](gradlewBuild.PNG)
+![gradlewBuild](img_md/gradlewBuild.PNG)
 
 2. <pre><code>cd build/libs</code></pre>
 
 3. <pre><code>java -jar hello-spring-0.0.1-SNAPSHOT.jar</code></pre>
 
-![ConsoleRun](ConsoleRun.PNG)
+![ConsoleRun](img_md/ConsoleRun.PNG)
 
 4. 실행확인
 
-![ConsoleRunCheck](ConsoleRunCheck.PNG)
+![ConsoleRunCheck](img_md/ConsoleRunCheck.PNG)
