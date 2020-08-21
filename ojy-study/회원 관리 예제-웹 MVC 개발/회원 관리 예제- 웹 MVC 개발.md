@@ -5,11 +5,13 @@
 ------------------
 
 1. 홈 컨트롤러 추가
+
 ![homecontroller](homecontroller.PNG)
 
 <br/>
 
 2. 회원 관리용 홈
+
 ![home](home.PNG)
 ![html](html.PNG)
 - 먼저 controller에서 매핑된 html을 찾고, 없다면 리소스에 있는 정적 파일 html을 연결함

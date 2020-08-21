@@ -52,11 +52,13 @@
 ----------------
 
 **AOP 적용 전 의존관계**
+
 ![before](before.PNG)
 
 <br/>
 
 **AOP 적용 후 의존관계**
+
 ![after](after.PNG)
 - 프록시라는 가짜 멤버 서비스를 앞에 세워두고 joinPoint.procced() 후 실제 서비스를 호출
     - 코드를 복제해서 조작
@@ -65,5 +67,6 @@
 <br/>
 
 **AOP 적용전vs 적용후 전체 그림**
+
 ![before1](before1.PNG)
 ![after1](after1.PNG)
